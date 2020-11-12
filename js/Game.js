@@ -106,7 +106,11 @@ class Game {
     console.log(player.rank)
     swal({
       text: "Your rank is :"+player.rank,
+      timer:1000 ,
+     
     })
+    console.log(timer)
+ //   swal.close()
     // swal(player.rank)
     //  alert(player.rank)
     //if(butonClicked("OK")){
